@@ -1,0 +1,13 @@
+name: CuboLuckyBlock
+version: '${project.version}'
+main: it.novaverse.cuboluckyblock.CuboLuckyBlock
+api-version: '1.21'
+authors: [ Jacomazz_ ]
+libraries:
+  - "ch.jalu:injector:${library.injector.version}"
+  - "ch.jalu:configme:${library.configme.version}"
+  - "org.incendo:cloud-paper:${library.cloud-minecraft.version}"
+  - "org.incendo:cloud-minecraft-extras:${library.cloud-minecraft.version}"
+  - "org.incendo:cloud-translations-bukkit:${library.cloud-translations.version}"
+  - "com.h2database:h2:${library.h2.version}"
+  - "org.mariadb.jdbc:mariadb-java-client:${library.mariadb.version}"
